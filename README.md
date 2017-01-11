@@ -1,2 +1,2 @@
-# Smart-Highways-Internet-of-Things-
+# Smart-Highways-Internet-of-Things
 Real time monitoring of highways
