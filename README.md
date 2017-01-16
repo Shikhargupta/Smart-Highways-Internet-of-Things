@@ -40,8 +40,9 @@ mode of operation, the system identifies crashes as well as several types of non
 * Classifier is providing very high efficiency classification.
 
 
-Fig 1 and 2 shows spectrograms of accident and non-accident sound signals.
+Figures below show spectrograms of accident and non-accident sound signals.
 
+<img src="images/crash.png" width="350"/>              <img src="images/non-crash.png" width="350"/>
 
 ### [RFID based Toll-Tax Collection](RFID-toll-collector)
 
@@ -50,6 +51,10 @@ Toll collection booths often become bottlenecks of the highway which leads to st
 * A RFID transmitter is assumed to be in the number plate of the car. This gives every car a unique identification number. There is a RFID reader installed on the road a sufficient distance before from the gate. 
 * When a car approaches the toll booth the RFID reader reads the tag installed on the car. The identification number is linked to the account of the customer. 
 * If the toll is successfully collected the gate is opened for the approaching vehicle. In case the car is stolen and a complaint has been registered the toll booth is notified and the gate remains closed.
+
+<p align="center">
+<img src="images/rfid.png" width="400"/>
+</p>  
 
 ### Collision Avoidance System using IR sensors
 
@@ -64,6 +69,10 @@ The system comprises of 3 components
 * The IR transmitters on the fence create a region of IR rays around the fence.
 * When the vehicle is in close proximity of the fence, the IR sensors sense the rays and send the signal to the Intel Galileo gen 2 on the vehicle.
 * Depending on which sensor sensed the IR rays, the board then issues a warning to the driver indicating the direction in which, the driver is close to the fence.
+
+<p align="center">
+<img src="images/circuit.png" width="400"/>
+</p>
 
 ### [Smart Street Light](Smart-Street-Light)
 
